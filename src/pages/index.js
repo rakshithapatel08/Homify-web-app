@@ -14,7 +14,7 @@ const Banner = ({ purpose, imageUrl, title1, title2, desc1, desc2, Linkname, but
           <Text fontSize='md'  color="grey.300" fontWeight="300" mb="3">{purpose}</Text>
           <Text fontSize='3xl' color="grey.700" fontWeight="600"mb="2">{title1}<br />{title2}</Text>
           <Text fontSize='lg' color="grey.500" fontWeight="400" mb="3">{desc1}<br />{desc2}</Text>
-          <Button color="white" bg="teal" _hover={{bg:"teal.700"}} p="2" mt="3">
+          <Button color="white" bg="teal" _hover={{bg:"teal.700"}} p="2" mt="5">
             <Link href={Linkname}>
               {buttontext}
             </Link>
@@ -33,10 +33,10 @@ export default function Home({propertyForRent, propertyForSale}) {
         purpose="Rent a home"
         imageUrl="https://bayut-production.s3.eu-central-1.amazonaws.com/image/145426814/33973352624c48628e41f2ec460faba4"
         title1="Rental homes"
-        title2="Everyone"
+        title2=" for Everyone"
         desc1="explore flats, community houses, villas"
         desc2="and many more.."
-        Linkname="/search?.purpose=for-rent"
+        Linkname="/search?purpose=for-rent"
         buttontext="Explore Renting"
       />
       <Flex flexWrap="wrap" justifyContent="center" alignItems="center">
@@ -51,7 +51,7 @@ export default function Home({propertyForRent, propertyForSale}) {
         title2="and find happiness"
         desc1="explore flats, community houses, villas"
         desc2="and many more.."
-        Linkname="/search?.purpose=for-rent"
+        Linkname="/search?purpose=for-sale"
         buttontext="Explore Buying"
       />
      <Flex flexWrap="wrap" justifyContent="center" alignItems="center">
