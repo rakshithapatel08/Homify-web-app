@@ -44,8 +44,8 @@ const SearchFilters = ({value,setValue}) => {
         <Select w="20%" m="3" disabled={bool} key={index}
          ref={(el) => (inputRef.current[index] = el)}
          onChange={(e)=>selectFilter(e.target.value,filter.queryName)} placeholder={filter.placeholder}>
-          {filter.items?.map((item) => (
-            <option value={item.value}>{item.name}</option>
+          {filter.items?.map((item,index) => (
+            <option value={item.value} key={index}>{item.name}</option>
           ))}
         </Select>
         ))}

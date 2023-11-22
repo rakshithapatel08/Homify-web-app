@@ -9,7 +9,7 @@ const Banner = ({ purpose, imageUrl, title1, title2, desc1, desc2, Linkname, but
   return (
     <>
       <Flex flexWrap="wrap" justifyContent="center" alignItems="center" m="5">
-        <Image src={imageUrl} width={400} height={200}/>
+        <Image src={imageUrl} width={400} height={200} alt="bannerImage"/>
         <Box ml="5">
           <Text fontSize='md'  color="grey.300" fontWeight="300" mb="3">{purpose}</Text>
           <Text fontSize='3xl' color="grey.700" fontWeight="600"mb="2">{title1}<br />{title2}</Text>

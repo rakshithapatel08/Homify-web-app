@@ -8,7 +8,7 @@ import PropertyCard from '../../components/PropertyCard'
 import { baseUrl, fetchApi } from '@/utils/fetchAPI'
 
 
-const search = ({ properties }) => {
+const Search = ({ properties }) => {
 
   let filteredListProperties;
   const [showFilter, setShowFilter] = useState(false);
@@ -69,7 +69,7 @@ const search = ({ properties }) => {
   )
 }
 
-export default search
+export default Search
 
 export async function getServerSideProps({ query }) {
 

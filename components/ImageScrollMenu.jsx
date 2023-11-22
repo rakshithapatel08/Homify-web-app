@@ -27,7 +27,7 @@ const ImageScrollMenu = ({ data }) => {
         <ScrollMenu LeftArrow={LeftArrow} RightArrow={RightArrow}>
             {data.map((photo) =>
             <Box key={photo.id}  w="900px" >
-                <Image w="900px" h="500" objectFit="cover"  src={photo.url} />       
+                <Image w="900px" h="500" objectFit="cover" alt="propertyImages" src={photo.url} />       
             </Box>                
             )}
         </ScrollMenu>        

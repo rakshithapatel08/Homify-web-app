@@ -11,7 +11,7 @@ const PropertyCard = ({ property: { coverPhoto, isVerified, price, rentFrequency
   return (
     <Flex flexDirection="column" m="7" p="4" justifyContent="center" alignItems="center" bg="gray.200" borderRadius="5">
       <Box>
-        <Image borderRadius="5" src={coverPhoto.url} alt='propertyImage' w={300} h={225} />
+        <Image borderRadius="5" src={coverPhoto.url} alt="propertyImage" w={300} h={225} />
       </Box>
 
       <Flex flexDirection="column" w={300} h={175} alignItems="center" justifyContent="center" >
