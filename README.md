@@ -1,3 +1,8 @@
+## Homify
+
+This `Homify-web-app` is a nextJS based web application along with chakraUI for styling.
+It is a real-estate application supported by RapidAPI for required data.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -16,13 +21,21 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Technologies used
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+* nextJS
+* reactJS
+* chakraUI
+* RapidAPI
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Dependencies
+
+* axios
+* react-icons 
+* nprogress 
+* chakraUI 
+* react-horizontal-scrolling-menu
 
 ## Learn More
 
@@ -31,10 +44,13 @@ To learn more about Next.js, take a look at the following resources:
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Deployed on Vercel
 
-## Deploy on Vercel
+[Homify](https://homify-web-app.vercel.app/) - Check the application here.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Beautiful insights of `Homify`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Home page ![screencapture-homify-web-app-vercel-app-2023-11-22-22_49_27](https://github.com/rakshithapatel08/Homify-web-app/assets/109893073/e490b1da-76a1-433d-9d73-3eaf49346b23) 
+### Search Properties page ![screencapture-homify-web-app-vercel-app-search-2023-11-22-22_50_30](https://github.com/rakshithapatel08/Homify-web-app/assets/109893073/6d8b8f6d-dc10-47e3-b8f0-351d25ac7eaa)
+### Details page ![screencapture-homify-web-app-vercel-app-properties-7416414-2023-11-22-22_51_06](https://github.com/rakshithapatel08/Homify-web-app/assets/109893073/5ad7c6f3-deb6-45bb-99ae-a4e34899af52)
+### Mobile responsive web-app ![screencapture-homify-web-app-vercel-app-properties-7416414-2023-11-22-22_51_59](https://github.com/rakshithapatel08/Homify-web-app/assets/109893073/f63014db-b3cc-4af8-8f22-3108275e6878)
